@@ -27,12 +27,11 @@
         max-width: 100%;
     }
     .card-container {
-        margin-top: 31px;
+       margin-top: 31px;
         padding: 0 28px;
         justify-content: space-between;
         display: flex;
-        flex-wrap: wrap; 
-        margin-top: 41px;
-        padding: 0 51px;
+        flex-wrap: wrap;
+        
     }
 }
