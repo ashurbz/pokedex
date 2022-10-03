@@ -28,7 +28,7 @@ const Option = ({ label, data, selectedData, setSelectedData }) => {
 				className={`option-btn ${isOptionActive ? 'white-class' : ''}`}
 				onClick={handleOptionClick}
 			>
-				<button className={`${isOptionActive ? 'white-class' : ''}`}>
+				<button aria-label='optionbutton' className={`${isOptionActive ? 'white-class' : ''}`}>
 					<span>{selectedData?.length ? selectedData[0] : ''}</span>{' '}
 					<span className='btn-more-text'>
 						{selectedData?.length > 1

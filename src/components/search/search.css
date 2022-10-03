@@ -43,11 +43,12 @@
 
 .search-container .search input:focus {
     outline: none;
-}
+} 
 
 .search-container .search img {
     position: relative;
     width: 26px;
+    height:57px;
     right: 40px;
 }
 
