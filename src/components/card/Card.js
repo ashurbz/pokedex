@@ -66,9 +66,9 @@ const Card = ({
 		selectedPokemonTypes,
 		selectedPokemonGenders,
 		searchText,
-		pokemonDetails?.types,
-		pokemonDetails?.id,
-		pokemonDetails?.name,
+		pokemonDetails,
+	
+		pokemon
 	]);
 
 	useEffect(() => {
@@ -78,7 +78,7 @@ const Card = ({
 			});
 
 			pokemonTypes.push(pokemonDetails?.types);
-			setPokemonTypes(pokemonTypes);
+			setPokemonTypes([...pokemonTypes]);
 
 			if (pokemonColors?.length === 1) {
 				setPokemonBackground({ background: pokemonColors[0] });

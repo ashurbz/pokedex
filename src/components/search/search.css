@@ -1,7 +1,8 @@
 .search-container {
     position: relative;
-    margin-left: 72px;
-    width: 663px;
+    margin-left: 28px;
+ width: 100%;
+    
 }
 
 .search-container .label {
@@ -21,7 +22,7 @@
 
 .search-container .search input {
     height: 57px;
-    width: 663px;
+    width: 100%;
     left: 0px;
     top: 24px;
     border-radius: 8px;
@@ -42,7 +43,7 @@
 }
 
 .search-container .search input:focus {
-    outline: none;
+    outline-color: #4cb9d4;
 } 
 
 .search-container .search img {
@@ -50,6 +51,14 @@
     width: 26px;
     height:57px;
     right: 40px;
+}
+
+.search{
+    position: sticky;
+    top: 131px;
+    z-index: 11;
+    padding-bottom: 20px;
+    background: #DEEDED;
 }
 
 @media screen and (max-width: 768px) {
