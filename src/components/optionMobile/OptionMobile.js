@@ -59,6 +59,7 @@ const OptionMobile = ({ label, options, selectedData, setSelectedData }) => {
 										<div className='options-two-col'>
 											<label className='option-mobile'>
 												<input
+													onChange={e=>{}}
 													type='checkbox'
 													checked={selectedData?.includes(
 														option
@@ -74,6 +75,7 @@ const OptionMobile = ({ label, options, selectedData, setSelectedData }) => {
 											{options[index + 1] ? (
 												<label className='option-mobile'>
 													<input
+													    onChange={e=>{}}
 														type='checkbox'
 														checked={selectedData?.includes(
 															options[index + 1]
